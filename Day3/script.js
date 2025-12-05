@@ -98,3 +98,17 @@ Animal2.prototype.speak = function () {
 
 const cat = new Animal2("Kitty");
 cat.speak();
+
+
+// 	1.	Create a user object that stores name and email and has a login method which prints “User logged in”.
+const user = {
+  name: "John Doe",
+  email: "john@example.com",
+
+  login: function () {
+    console.log("User logged in");
+  }
+};
+
+// Calling the login method
+user.login();
